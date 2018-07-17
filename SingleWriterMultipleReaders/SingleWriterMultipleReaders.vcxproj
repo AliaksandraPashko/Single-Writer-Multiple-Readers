@@ -21,6 +21,10 @@
   <ItemGroup>
     <ClInclude Include="SWMR.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SWMR.cpp" />
+    <ClCompile Include="test_main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{2280DD56-AFD0-4824-ACFA-22D00BDAA83D}</ProjectGuid>
@@ -80,6 +84,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
