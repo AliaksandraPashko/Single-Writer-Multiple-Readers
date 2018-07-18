@@ -1,8 +1,8 @@
-#include "SWMR.h"
+#include "WriterReaderServer.h"
 #include <iostream>
 
 std::mutex mtx;
-SWMR swmr;
+WriterReaderServer swmr;
 
 void read()
 {
@@ -24,8 +24,6 @@ void write()
 
 int main()
 {
-
-
 	std::thread t3(read);
 	std::thread t4(write);
 	std::thread t5(write);

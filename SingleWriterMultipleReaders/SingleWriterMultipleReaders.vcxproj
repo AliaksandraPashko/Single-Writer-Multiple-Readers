@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SWMR.h" />
+    <ClInclude Include="WriterReaderServer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWMR.cpp" />
+    <ClCompile Include="WriterReaderServer.cpp" />
     <ClCompile Include="test_main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
